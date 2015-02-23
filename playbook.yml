@@ -201,7 +201,7 @@
         owner=aegir group=aegir mode=0744
         state=directory
 
-    - name: Install drush tools.
+    - name: Install drush tools from me336408.
       command: "{{ drush_path }} dl {{ item }}  --destination=/var/aegir/.drush/commands -y --package-handler=git_drupalorg"
       sudo: yes
       sudo_user: aegir
