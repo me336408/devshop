@@ -25,7 +25,7 @@ echo " Welcome to the DevShop Standalone Installer "
 echo "============================================="
 
 # The rest of the scripts are only cloned if the playbook path option is not found.
-DEVSHOP_GIT_REPO='http://github.com/opendevshop/devshop.git'
+DEVSHOP_GIT_REPO='http://github.com/me336408/devshop.git'
 
 if [ -f '/etc/os-release' ]; then
     . /etc/os-release
