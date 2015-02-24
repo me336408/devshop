@@ -202,7 +202,7 @@
         state=directory
 
     - name: Install drush tools from me336408.
-      command: "{{ drush_path }} dl {{ item }}  --destination=/var/aegir/.drush/commands -y --package-handler=git_drupalorg"
+      command: "{{ drush_path }} dl {{ item }}  --destination=/var/aegir/.drush/commands -y --package-handler=wget"
       sudo: yes
       sudo_user: aegir
       with_items:
